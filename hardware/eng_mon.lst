@@ -1,0 +1,25 @@
+eeschema (2011-05-25)-stable  >> Creation date: Wed 02 Oct 2013 08:45:54 AM EDT
+
+#Cmp ( order = Reference )
+| C1         22 pF       
+| C2         1 uF        
+| C3         22 pF       
+| J1         USB_2       
+| R1         22R         
+| R2         22R         
+| U1         ATMEGA32U4  
+| X1         16 MHz      
+#End Cmp
+
+#Cmp ( order = Value )
+| 1 uF         C2        
+| 16 MHz       X1        
+| 22 pF        C1        
+| 22 pF        C3        
+| 22R          R1        
+| 22R          R2        
+| ATMEGA32U4   U1        
+| USB_2        J1        
+#End Cmp
+
+#End List

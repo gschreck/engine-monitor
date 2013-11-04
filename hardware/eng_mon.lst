@@ -1,25 +1,102 @@
-eeschema (2011-05-25)-stable  >> Creation date: Wed 02 Oct 2013 08:45:54 AM EDT
-
-#Cmp ( order = Reference )
-| C1         22 pF       
-| C2         1 uF        
-| C3         22 pF       
+| C1         4.7 uF      
+| C2         470 pF      
+| C3         0.47 uF     
+| C4         47 uF       
+| C5         1 uF        
+| C6         0.01 uF     
+| C7         10 uF       
+| C8         C           
+| C9         C           
+| C10        0.1 uF      
+| C11        0.1 uF      
+| C12        560 pF      
+| C13        560 pF      
+| C14        0.1 uF      
+| C15        3000 uF     
+| C16        3000 uF     
+| C17        0.1uF       
+| C18        0.1uF       
+| C19        0.1uF       
+| C20        0.1uF       
+| C21        0.1uF       
+| C22        22 pF       
+| C23        22 pF       
+| C24        1 uF        
+| C25        0.1uF       
+| D1         DFLS240L    
+| D2         LED         
+| D3         LED         
+| D4         BAT54J      
+| D5         BAT54J      
+| D6         BAT54J      
+| D7         BAT54J      
+| D8         LED         
+| D9         LED         
 | J1         USB_2       
-| R1         22R         
-| R2         22R         
-| U1         ATMEGA32U4  
-| X1         16 MHz      
-#End Cmp
-
-#Cmp ( order = Value )
-| 1 uF         C2        
-| 16 MHz       X1        
-| 22 pF        C1        
-| 22 pF        C3        
-| 22R          R1        
-| 22R          R2        
-| ATMEGA32U4   U1        
-| USB_2        J1        
-#End Cmp
-
-#End List
+| L1         NP06DZB6RM8 
+| P1         CONN_12     
+| P2         CONN_8      
+| P3         CONN_8      
+| Q1         MMBT2222AT  
+| Q2         MMBT2222AT  
+| Q3         MMBT2222AT  
+| Q4         MMBT2222AT  
+| R1         16.2k       
+| R2         68.1k       
+| R3         100K        
+| R4         536K        
+| R5         2k          
+| R6         900k        
+| R7         100k        
+| R8         DNI         
+| R9         2k          
+| R10        1k          
+| R11        1k          
+| R12        2k          
+| R13        1K          
+| R14        100         
+| R15        100         
+| R16        DNI         
+| R17        0           
+| R18        1K          
+| R19        1K          
+| R20        1K          
+| R21        220         
+| R22        1K          
+| R23        220         
+| R24        10K         
+| R25        33.2K       
+| R26        800         
+| R27        800         
+| R28        800         
+| R29        800         
+| R30        1K          
+| R31        1K          
+| R32        1K          
+| R33        1K          
+| R34        DNI         
+| R35        DNI         
+| R36        10K         
+| R37        DNI         
+| R38        33.2K       
+| R39        DNI         
+| R40        22R         
+| R41        22R         
+| R42        2k          
+| R43        2k          
+| R44        2k          
+| R45        DNI         
+| T1         BUZ11       
+| T2         BUZ11       
+| U1         LT1912      
+| U2         LT1761_1    
+| U3         MIC2774N    
+| U4         MCP2515     
+| U5         MCP2551_1   
+| U6         LTC2635_MSE 
+| U7         SN74LVC1G14 
+| U8         SN74LVC1G14 
+| U9         USB6B1      
+| U10        ATMEGA32U4  
+| X1         20 MHz      
+| X2         16 MHz      

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Nov 2013 07:38:03 AM EST
+EESchema Schematic File Version 2  date Mon 04 Nov 2013 11:57:20 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -168,10 +168,10 @@ Wire Wire Line
 Wire Wire Line
 	950  1900 1350 1900
 $Comp
-L CONN_12 P?
+L CONN_12 P1
 U 1 1 526DB75C
 P 10400 3950
-F 0 "P?" V 10350 3950 60  0000 C CNN
+F 0 "P1" V 10350 3950 60  0000 C CNN
 F 1 "CONN_12" V 10450 3950 60  0000 C CNN
 	1    10400 3950
 	1    0    0    -1  

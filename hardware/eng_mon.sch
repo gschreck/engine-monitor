@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 31 Oct 2013 01:30:22 PM EDT
+EESchema Schematic File Version 2  date Mon 04 Nov 2013 07:38:03 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title ""
-Date "31 oct 2013"
+Date "4 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -204,8 +204,8 @@ S 7100 4700 1600 1400
 U 52651A40
 F0 "input_output" 60
 F1 "in_out.sch" 60
-F2 "pd1_i2c_sda" I L 7100 4950 60 
-F3 "pd0_i2c_scl" I L 7100 4850 60 
+F2 "i2c_sda" I L 7100 4950 60 
+F3 "i2c_scl" I L 7100 4850 60 
 F4 "input_voltage" I L 7100 5950 60 
 F5 "current_sink_3" I R 8700 5250 60 
 F6 "current_sink_2" I R 8700 5150 60 
@@ -225,13 +225,13 @@ S 3650 2850 2050 3050
 U 526519AD
 F0 "processor" 60
 F1 "processor.sch" 60
-F2 "pd1_i2c_sda" I R 5700 4950 60 
-F3 "pd0_i2c_scl" I R 5700 4850 60 
-F4 "pb4_spi_interrupt" I R 5700 3750 60 
-F5 "pb3_spi_miso" I R 5700 3650 60 
-F6 "pb2_spi_mosi" I R 5700 3550 60 
-F7 "pb1_spi_sck" I R 5700 3450 60 
-F8 "pb0_spi_slave_select" I R 5700 3350 60 
+F2 "i2c_sda" I R 5700 4950 60 
+F3 "i2c_scl" I R 5700 4850 60 
+F4 "spi_interrupt" I R 5700 3750 60 
+F5 "spi_miso" I R 5700 3650 60 
+F6 "spi_mosi" I R 5700 3550 60 
+F7 "spi_sck" I R 5700 3450 60 
+F8 "spi_slave_select" I R 5700 3350 60 
 F9 "reset_n" I L 3650 3100 60 
 F10 "dig_out_0" I R 5700 5600 60 
 F11 "dig_out_1" I R 5700 5700 60 

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 31 Oct 2013 01:30:22 PM EDT
+EESchema Schematic File Version 2  date Mon 04 Nov 2013 07:38:03 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 5
 Title ""
-Date "31 oct 2013"
+Date "4 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -673,9 +673,9 @@ F 1 "SN74LVC1G14" H 6700 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1450 5700 0    60   Input ~ 0
-pd1_i2c_sda
+i2c_sda
 Text HLabel 1450 5550 0    60   Input ~ 0
-pd0_i2c_scl
+i2c_scl
 $Comp
 L +3.3V #PWR?
 U 1 1 52630C6B

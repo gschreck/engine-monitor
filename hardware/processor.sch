@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 31 Oct 2013 01:30:23 PM EDT
+EESchema Schematic File Version 2  date Mon 04 Nov 2013 07:38:03 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 5
 Title ""
-Date "31 oct 2013"
+Date "4 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -506,19 +506,19 @@ F 1 "GND" H 1600 4080 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 7650 3700 2    60   Input ~ 0
-pd1_i2c_sda
+i2c_sda
 Text HLabel 7650 3600 2    60   Input ~ 0
-pd0_i2c_scl
+i2c_scl
 Text HLabel 7650 4550 2    60   Input ~ 0
-pb4_spi_interrupt
+spi_interrupt
 Text HLabel 7650 2800 2    60   Input ~ 0
-pb3_spi_miso
+spi_miso
 Text HLabel 7650 2700 2    60   Input ~ 0
-pb2_spi_mosi
+spi_mosi
 Text HLabel 7650 2600 2    60   Input ~ 0
-pb1_spi_sck
+spi_sck
 Text HLabel 7650 3450 2    60   Input ~ 0
-pb0_spi_slave_select
+spi_slave_select
 Text HLabel 3900 4300 0    60   Input ~ 0
 reset_n
 $Comp

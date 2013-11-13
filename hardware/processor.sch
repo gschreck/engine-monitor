@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Nov 2013 10:09:33 PM EST
+EESchema Schematic File Version 2  date Wed 13 Nov 2013 08:13:39 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title ""
 Date "13 nov 2013"
 Rev ""
@@ -45,12 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2450 5150 0    60   ~ 0
-spi_mosi
-Text Label 1100 5250 0    60   ~ 0
-reset_n
-Text Label 1100 5150 0    60   ~ 0
-spi_clk
+Wire Wire Line
+	6950 3900 7650 3900
 Wire Wire Line
 	1550 5250 1100 5250
 Wire Wire Line
@@ -68,14 +64,14 @@ Wire Wire Line
 Wire Wire Line
 	6950 4450 9000 4450
 Wire Wire Line
-	9800 1700 5150 1700
+	5150 1700 9800 1700
 Wire Wire Line
 	9800 1700 9800 4700
 Wire Wire Line
 	9800 4700 9950 4700
 Connection ~ 7700 5800
 Wire Wire Line
-	7700 5550 7700 5800
+	7700 5800 7700 5550
 Wire Wire Line
 	7700 5550 7950 5550
 Wire Wire Line
@@ -84,7 +80,7 @@ Wire Wire Line
 	6950 3000 7650 3000
 Connection ~ 1400 7050
 Wire Wire Line
-	1100 7050 2300 7050
+	2300 7050 1100 7050
 Wire Wire Line
 	1100 7050 1100 6950
 Connection ~ 2000 7050
@@ -104,7 +100,7 @@ Connection ~ 6300 5800
 Wire Wire Line
 	9950 5400 8850 5400
 Wire Wire Line
-	8850 5800 8850 5400
+	8850 5400 8850 5800
 Wire Wire Line
 	8850 5800 6000 5800
 Connection ~ 8600 4450
@@ -148,7 +144,7 @@ Wire Wire Line
 	3600 5150 3500 5150
 Connection ~ 3500 6100
 Wire Wire Line
-	4300 6100 3500 6100
+	3500 6100 4300 6100
 Wire Wire Line
 	4300 6100 4300 5900
 Wire Wire Line
@@ -170,11 +166,11 @@ Connection ~ 5150 1700
 Wire Wire Line
 	5950 1700 5950 2100
 Wire Wire Line
-	4000 2350 4250 2350
+	4250 2350 4000 2350
 Wire Wire Line
-	5150 2550 5350 2550
+	5350 2550 5150 2550
 Wire Wire Line
-	5150 1450 5150 2550
+	5150 2550 5150 1450
 Wire Wire Line
 	6050 1700 6050 2100
 Connection ~ 5950 1700
@@ -187,9 +183,9 @@ Connection ~ 4000 2750
 Wire Wire Line
 	5350 3050 4950 3050
 Wire Wire Line
-	3500 4500 5350 4500
+	5350 4500 3500 4500
 Wire Wire Line
-	3500 5500 3500 4500
+	3500 4500 3500 5500
 Wire Wire Line
 	3500 5900 3500 6300
 Wire Wire Line
@@ -215,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2950 1600 2950
 Wire Wire Line
-	1600 2300 1600 2950
+	1600 2950 1600 2300
 Wire Wire Line
 	1600 2300 3400 2300
 Wire Wire Line
@@ -229,9 +225,9 @@ Wire Wire Line
 	2450 3950 2450 3750
 Connection ~ 1600 3950
 Wire Wire Line
-	4000 3950 4000 2350
+	4000 2350 4000 3950
 Wire Wire Line
-	1600 3950 4000 3950
+	4000 3950 1600 3950
 Connection ~ 2550 3950
 Wire Wire Line
 	6950 5000 9950 5000
@@ -273,9 +269,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 3100 7650 3100
 Wire Wire Line
-	8600 5550 8450 5550
+	8450 5550 8600 5550
 Wire Wire Line
-	8600 4450 8600 5550
+	8600 5550 8600 4450
 Connection ~ 8600 4800
 Wire Wire Line
 	9500 4450 9800 4450
@@ -296,6 +292,20 @@ Wire Wire Line
 	2350 5050 2500 5050
 Wire Wire Line
 	2500 5050 2500 4900
+Wire Wire Line
+	6950 3800 7650 3800
+Text HLabel 7650 3900 2    60   Input ~ 0
+accel_int_1
+Text HLabel 10150 2950 2    60   Input ~ 0
+square_wave_input
+Text HLabel 7650 3800 2    60   Input ~ 0
+accel_int_0
+Text Label 2450 5150 0    60   ~ 0
+spi_mosi
+Text Label 1100 5250 0    60   ~ 0
+reset_n
+Text Label 1100 5150 0    60   ~ 0
+spi_clk
 Text Label 4150 4300 0    60   ~ 0
 reset_n
 Text Label 7200 2600 0    60   ~ 0
@@ -340,8 +350,6 @@ NoConn ~ 6950 4700
 NoConn ~ 6950 4300
 NoConn ~ 6950 4200
 NoConn ~ 6950 4000
-NoConn ~ 6950 3900
-NoConn ~ 6950 3800
 NoConn ~ 6950 3350
 $Comp
 L R R48

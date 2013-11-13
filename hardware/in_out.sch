@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Nov 2013 10:09:33 PM EST
+EESchema Schematic File Version 2  date Wed 13 Nov 2013 08:13:39 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -79,10 +79,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 2200 7850 2200
 Wire Wire Line
-	1700 3600 1700 3750
-Wire Wire Line
-	1700 3200 1700 3050
-Wire Wire Line
 	1300 3200 1300 3050
 Wire Wire Line
 	1300 3600 1300 3750
@@ -109,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1400 4300 800 
 Wire Wire Line
-	850  3600 850  3750
+	900  3600 900  3750
 Wire Wire Line
 	1200 6250 1200 6500
 Wire Wire Line
@@ -286,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 6300 1350 6250
 Wire Wire Line
-	850  3200 850  3050
+	900  3200 900  3050
 Wire Wire Line
 	4200 3000 4200 2800
 Wire Wire Line
@@ -406,33 +402,6 @@ F 1 "+3.3V" H 8550 1160 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
-U 1 1 5282D633
-P 1700 3750
-F 0 "#PWR?" H 1700 3750 30  0001 C CNN
-F 1 "GND" H 1700 3680 30  0001 C CNN
-	1    1700 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5282D632
-P 1700 3050
-F 0 "#PWR?" H 1700 3140 20  0001 C CNN
-F 1 "+5V" H 1700 3140 30  0000 C CNN
-	1    1700 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5282D631
-P 1700 3400
-F 0 "C?" H 1750 3500 50  0000 L CNN
-F 1 "0.1 uF" H 1750 3300 50  0000 L CNN
-	1    1700 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C?
 U 1 1 5282D617
 P 1300 3400
@@ -460,7 +429,7 @@ F 1 "GND" H 1300 3680 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 3300 850  0    60   ~ 0
-Li 48 >48 mA
+Li 3V >48 mA
 Text Notes 5800 2750 0    60   ~ 0
 12.5 pF\n
 $Comp
@@ -535,28 +504,28 @@ NoConn ~ 5100 4950
 $Comp
 L GND #PWR022
 U 1 1 526E4C5E
-P 850 3750
-F 0 "#PWR022" H 850 3750 30  0001 C CNN
-F 1 "GND" H 850 3680 30  0001 C CNN
-	1    850  3750
+P 900 3750
+F 0 "#PWR022" H 900 3750 30  0001 C CNN
+F 1 "GND" H 900 3680 30  0001 C CNN
+	1    900  3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR023
 U 1 1 526E4C55
-P 850 3050
-F 0 "#PWR023" H 850 3140 20  0001 C CNN
-F 1 "+5V" H 850 3140 30  0000 C CNN
-	1    850  3050
+P 900 3050
+F 0 "#PWR023" H 900 3140 20  0001 C CNN
+F 1 "+5V" H 900 3140 30  0000 C CNN
+	1    900  3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C19
 U 1 1 526E4C4C
-P 850 3400
-F 0 "C19" H 900 3500 50  0000 L CNN
-F 1 "0.1 uF" H 900 3300 50  0000 L CNN
-	1    850  3400
+P 900 3400
+F 0 "C19" H 950 3500 50  0000 L CNN
+F 1 "0.1 uF" H 950 3300 50  0000 L CNN
+	1    900  3400
 	1    0    0    -1  
 $EndComp
 $Comp

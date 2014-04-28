@@ -1,4 +1,4 @@
-update=Mon 28 Oct 2013 08:17:54 AM EDT
+update=Sat 26 Apr 2014 08:54:41 PM EDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -142,3 +142,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=gs
+LibName32=opendous

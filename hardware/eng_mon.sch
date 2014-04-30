@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 Apr 2014 10:24:32 PM EDT
+EESchema Schematic File Version 2  date Wed 30 Apr 2014 02:36:15 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 6
 Title ""
-Date "27 apr 2014"
+Date "30 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -101,9 +101,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5900 7200 5900
 Wire Wire Line
-	2000 2150 1850 2150
-Wire Wire Line
-	1850 2150 1600 2150
+	2000 2150 1600 2150
 Wire Wire Line
 	1600 2150 1600 1350
 Wire Wire Line
@@ -154,9 +152,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3900 4450 3900
 Wire Wire Line
-	3000 2300 3150 2300
-Wire Wire Line
-	3150 2300 5300 2300
+	3000 2300 5300 2300
 Wire Wire Line
 	5300 2300 5300 3400
 Wire Wire Line
